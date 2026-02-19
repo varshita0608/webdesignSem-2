@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.redd.it/two-minecraft-backgrounds-i-made-first-time-using-shaders-v0-9co6s0m3me9d1.png?width=1920&format=png&auto=webp&s=d92e29b598711ebf0c9b9a77f3ee31d4d938a843");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/* Dark overlay */
+body::before {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Title */
+h1 {
+    margin-top: 100px;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+/* Menu container */
+.menu {
+    margin-top: 60px;
+}
+
+/* Buttons */
+.btn {
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: gray;
+    border: 3px solid white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.btn:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+/* Click effect */
+.btn:active {
+    transform: scale(0.95);
+}
