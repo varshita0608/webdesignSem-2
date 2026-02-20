@@ -10,7 +10,7 @@ body {
     color: white;
 }
 
-/* Dark overlay */
+
 body::before {
     content: "";
     position: fixed;
@@ -22,19 +22,19 @@ body::before {
     z-index: -1;
 }
 
-/* Title */
+
 h1 {
     margin-top: 100px;
     font-size: 60px;
     letter-spacing: 3px;
 }
 
-/* Menu container */
+
 .menu {
     margin-top: 60px;
 }
 
-/* Buttons */
+
 .btn {
     width: 300px;
     margin: 20px auto;
@@ -45,13 +45,13 @@ h1 {
     transition: 0.3s;
 }
 
-/* Hover effect */
+
 .btn:hover {
     background-color: green;
     cursor: pointer;
 }
 
-/* Click effect */
+
 .btn:active {
     transform: scale(0.95);
 }
