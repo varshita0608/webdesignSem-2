@@ -13,8 +13,19 @@
         <input type="text" id="name" placeholder="Enter employee name"><br>
         <input type="text" id="empId" placeholder="Enter employee ID"><br>
         <input type="number" id="salary" placeholder="Enter employee salary"><br>
-        <input type="text" id="name" placeholder="Enter employee name"><br>
+        <input type="text" id="dept" placeholder="Enter employee department"><br>
+
+        <button onclick="addEmployee()">Add Employee</button><br>
+        <button onclick="displayEmployees()"> Display all employees</button><br>
+        <button onclick="filterSalary()">salary>5000</button><br>
+        <button onclick="totalSalary()">Total Salary</button><br>
+        <button onclick="averageSalary()">Average Salary</button><br>
+        <button onclick="countDepartment()">Count by dept.</button><br>
+
+        <div id="output"></div>
 
     </div>
+
+    <script src="main.jsx"></script>
 </body>
 </html>
