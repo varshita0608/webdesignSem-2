@@ -11,7 +11,7 @@ function App() {
   return (
     
     <>
-    <Greeting name={'Varshita'} age={18}/>
+    <Greeting/>
     </> 
   )
 }
